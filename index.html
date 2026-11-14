@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Charley's Old Fashioned Hamburgers | Fort Worth, TX (Demo)</title>
+  <meta name="description" content="Unofficial website demo for Charley's Old Fashioned Hamburgers, 4616 Granbury Rd, Fort Worth, Texas.">
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,700&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1400&q=80">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Demo notice -->
+  <div class="demo-bar" role="note">
+    <strong>Unofficial demo</strong> — a concept website prepared for Charley's Old Fashioned Hamburgers. Not the restaurant's official site. Items marked <span class="tbc">TBC</span> are placeholders to be confirmed.
+  </div>
+
+  <!-- Navigation -->
+  <header class="site-header" id="header">
+    <div class="container nav">
+      <a href="#home" class="brand" aria-label="Charley's Old Fashioned Hamburgers — home">
+        <span class="brand-script">Charley's</span>
+        <span class="brand-sub">Old Fashioned Hamburgers</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main">
+        <a href="#home" class="active">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+        <a href="#menu" class="btn btn-red nav-mobile-cta">View Menu</a>
+      </nav>
+
+      <a href="#menu" class="btn btn-red nav-cta">View Menu</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker reveal">Fort Worth, Texas · Granbury Road</p>
+          <h1 class="reveal">Good Burgers.<br><em>Great Memories.</em></h1>
+          <p class="hero-lead reveal">Welcome to Charley's Old Fashioned Hamburgers in Fort Worth. Come hungry, order up and enjoy a classic American burger.</p>
+          <div class="hero-actions reveal">
+            <a href="#menu" class="btn btn-red btn-lg">Explore Our Menu</a>
+            <a href="#location" class="btn btn-outline btn-lg">Find Us</a>
+          </div>
+          <a href="tel:+18179248611" class="hero-phone reveal">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+            (817) 924-8611
+          </a>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-arch">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1400&q=80"
+                 alt="A tall cheeseburger with lettuce, tomato and melted cheese on a dark background"
+                 width="1400" height="1750" fetchpriority="high">
+          </div>
+          <div class="sticker" aria-hidden="true">
+            <svg viewBox="0 0 200 200">
+              <defs><path id="circ" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"/></defs>
+              <text textLength="458" lengthAdjust="spacing"><textPath href="#circ" textLength="458" lengthAdjust="spacing">OLD FASHIONED HAMBURGERS · FORT WORTH ·</textPath></text>
+            </svg>
+            <span class="sticker-star">★</span>
+          </div>
+          <span class="photo-note">Sample photo</span>
+        </div>
+      </div>
+      <a href="#menu" class="scroll-cue" aria-label="Scroll to menu"><span></span></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Burgers</span><i>✦</i><span>Hot Dogs</span><i>✦</i><span>Malts &amp; Floats</span><i>✦</i><span>Fort Worth, TX</span><i>✦</i>
+        <span>Burgers</span><i>✦</i><span>Hot Dogs</span><i>✦</i><span>Malts &amp; Floats</span><i>✦</i><span>Fort Worth, TX</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- MENU -->
+    <section class="section menu" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">The Menu</p>
+          <h2>Classic American <em>favourites</em></h2>
+          <p class="section-sub">Menu items, descriptions and prices below are <strong>placeholders</strong> and will be replaced with Charley's verified menu.</p>
+        </div>
+
+        <div class="menu-tabs reveal" role="tablist" aria-label="Menu categories">
+          <button role="tab" class="tab active" aria-selected="true" data-filter="all">All</button>
+          <button role="tab" class="tab" aria-selected="false" data-filter="burgers">Burgers</button>
+          <button role="tab" class="tab" aria-selected="false" data-filter="hotdogs">Hot Dogs</button>
+          <button role="tab" class="tab" aria-selected="false" data-filter="sides">Sides</button>
+          <button role="tab" class="tab" aria-selected="false" data-filter="malts">Malts &amp; Floats</button>
+        </div>
+
+        <div class="menu-grid" id="menuGrid">
+          <!-- Cards are plain HTML so they're easy to edit. Replace the TBC text once the menu is verified. -->
+          <article class="dish reveal" data-cat="burgers">
+            <div class="dish-img"><img loading="lazy" src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=800&h=600&q=75" alt="Cheeseburger with lettuce, tomato and bacon" width="800" height="600"><span class="photo-note">Sample photo</span></div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Burger name <span class="tbc">TBC</span></h3><span class="price">$ —.— <span class="tbc">TBC</span></span></div>
+              <p>Description to be confirmed with Charley's — ingredients, toppings and size.</p>
+              <span class="dish-cat">Burgers</span>
+            </div>
+          </article>
+
+          <article class="dish reveal" data-cat="burgers">
+            <div class="dish-img"><img loading="lazy" src="https://images.unsplash.com/photo-1607013251379-e6eecfffe234?auto=format&fit=crop&w=800&h=600&q=75" alt="Double cheeseburger with pickles" width="800" height="600"><span class="photo-note">Sample photo</span></div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Burger name <span class="tbc">TBC</span></h3><span class="price">$ —.— <span class="tbc">TBC</span></span></div>
+              <p>Description to be confirmed with Charley's — ingredients, toppings and size.</p>
+              <span class="dish-cat">Burgers</span>
+            </div>
+          </article>
+
+          <article class="dish reveal" data-cat="burgers">
+            <div class="dish-img"><img loading="lazy" src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&h=600&q=75" alt="Cheeseburger with lettuce, tomato and onion" width="800" height="600"><span class="photo-note">Sample photo</span></div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Burger name <span class="tbc">TBC</span></h3><span class="price">$ —.— <span class="tbc">TBC</span></span></div>
+              <p>Description to be confirmed with Charley's — ingredients, toppings and size.</p>
+              <span class="dish-cat">Burgers</span>
+            </div>
+          </article>
+
+          <article class="dish reveal" data-cat="hotdogs">
+            <div class="dish-img"><img loading="lazy" src="https://images.unsplash.com/photo-1599599810694-b5b37304c041?auto=format&fit=crop&w=800&h=600&q=75" alt="Hot dog with mustard and ketchup" width="800" height="600"><span class="photo-note">Sample photo</span></div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Hot dog name <span class="tbc">TBC</span></h3><span class="price">$ —.— <span class="tbc">TBC</span></span></div>
+              <p>Description to be confirmed with Charley's.</p>
+              <span class="dish-cat">Hot Dogs</span>
+            </div>
+          </article>
+
+          <article class="dish reveal" data-cat="hotdogs">
+            <div class="dish-img"><img loading="lazy" src="https://images.unsplash.com/photo-1638368593249-7cadb261e8b3?auto=format&fit=crop&w=800&h=600&q=75" alt="Loaded hot dog on a bun" width="800" height="600"><span class="photo-note">Sample photo</span></div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Hot dog name <span class="tbc">TBC</span></h3><span class="price">$ —.— <span class="tbc">TBC</span></span></div>
+              <p>Description to be confirmed with Charley's.</p>
+              <span class="dish-cat">Hot Dogs</span>
+            </div>
+          </article>
+
+          <article class="dish reveal" data-cat="sides">
+            <div class="dish-img"><img loading="lazy" src="https://images.unsplash.com/photo-1639024471283-03518883512d?auto=format&fit=crop&w=800&h=600&q=75" alt="Golden onion rings" width="800" height="600"><span class="photo-note">Sample photo</span></div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Side name <span class="tbc">TBC</span></h3><span class="price">$ —.— <span class="tbc">TBC</span></span></div>
+              <p>Description to be confirmed with Charley's.</p>
+              <span class="dish-cat">Sides</span>
+            </div>
+          </article>
+
+          <article class="dish reveal" data-cat="sides">
+            <div class="dish-img"><img loading="lazy" src="https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?auto=format&fit=crop&w=800&h=600&q=75" alt="French fries" width="800" height="600"><span class="photo-note">Sample photo</span></div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Side name <span class="tbc">TBC</span></h3><span class="price">$ —.— <span class="tbc">TBC</span></span></div>
+              <p>Description to be confirmed with Charley's.</p>
+              <span class="dish-cat">Sides</span>
+            </div>
+          </article>
+
+          <article class="dish reveal" data-cat="malts">
+            <div class="dish-img"><img loading="lazy" src="https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=800&h=600&q=75" alt="Chocolate malt with whipped cream" width="800" height="600"><span class="photo-note">Sample photo</span></div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Malt / float name <span class="tbc">TBC</span></h3><span class="price">$ —.— <span class="tbc">TBC</span></span></div>
+              <p>Flavours and sizes to be confirmed with Charley's.</p>
+              <span class="dish-cat">Malts &amp; Floats</span>
+            </div>
+          </article>
+
+          <article class="dish reveal" data-cat="malts">
+            <div class="dish-img"><img loading="lazy" src="https://images.unsplash.com/photo-1568901839119-631418a3910d?auto=format&fit=crop&w=800&h=600&q=75" alt="Vanilla milkshake with a straw" width="800" height="600"><span class="photo-note">Sample photo</span></div>
+            <div class="dish-body">
+              <div class="dish-top"><h3>Malt / float name <span class="tbc">TBC</span></h3><span class="price">$ —.— <span class="tbc">TBC</span></span></div>
+              <p>Flavours and sizes to be confirmed with Charley's.</p>
+              <span class="dish-cat">Malts &amp; Floats</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="menu-note reveal">Full menu coming soon. For today's menu and prices, call <a href="tel:+18179248611">(817) 924-8611</a>.</p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?auto=format&fit=crop&w=900&h=1100&q=75" alt="Double patty cheeseburger close-up" width="900" height="1100">
+          <span class="photo-note">Sample photo</span>
+        </div>
+        <div class="about-copy reveal">
+          <p class="kicker">About Charley's</p>
+          <h2>A Fort Worth <em>burger stop</em></h2>
+          <p>Charley's Old Fashioned Hamburgers is a hamburger restaurant on Granbury Road in Fort Worth, Texas. Whether you're grabbing lunch, feeding the family or stopping for something sweet, you're always welcome here.</p>
+          <div class="placeholder-block">
+            <span class="tbc">TBC</span>
+            <p>Charley's story goes here — when it opened, who runs it and what makes it special. To be written with the owner.</p>
+          </div>
+          <div class="about-actions">
+            <a href="#menu" class="btn btn-red">See the Menu</a>
+            <a href="#contact" class="btn btn-ghost-dark">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Gallery</p>
+          <h2>Made for <em>cravings</em></h2>
+          <p class="section-sub">Sample stock photography — to be replaced with photos of Charley's own food.</p>
+        </div>
+        <div class="gallery-grid" id="galleryGrid">
+          <button class="g-item g-tall reveal" data-full="https://images.unsplash.com/photo-1757834787931-ddd70f3379a5?auto=format&fit=crop&w=1600&q=80"><img loading="lazy" src="https://images.unsplash.com/photo-1757834787931-ddd70f3379a5?auto=format&fit=crop&w=700&h=950&q=70" alt="Cheeseburger with lettuce and tomato on a wooden board" width="700" height="950"></button>
+          <button class="g-item reveal" data-full="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=1600&q=80"><img loading="lazy" src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=700&h=500&q=70" alt="Hamburger and fries on a board" width="700" height="500"></button>
+          <button class="g-item reveal" data-full="https://images.unsplash.com/photo-1612487439058-0564e17f761b?auto=format&fit=crop&w=1600&q=80"><img loading="lazy" src="https://images.unsplash.com/photo-1612487439058-0564e17f761b?auto=format&fit=crop&w=700&h=500&q=70" alt="Onion rings with dipping sauce" width="700" height="500"></button>
+          <button class="g-item g-wide reveal" data-full="https://images.unsplash.com/photo-1603064752734-4c48eff53d05?auto=format&fit=crop&w=1600&q=80"><img loading="lazy" src="https://images.unsplash.com/photo-1603064752734-4c48eff53d05?auto=format&fit=crop&w=1100&h=600&q=70" alt="Cheeseburger with lettuce and tomato" width="1100" height="600"></button>
+          <button class="g-item g-tall reveal" data-full="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=1600&q=80"><img loading="lazy" src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=700&h=950&q=70" alt="Milkshake topped with cookies and cream" width="700" height="950"></button>
+          <button class="g-item reveal" data-full="https://images.unsplash.com/photo-1598679253544-2c97992403ea?auto=format&fit=crop&w=1600&q=80"><img loading="lazy" src="https://images.unsplash.com/photo-1598679253544-2c97992403ea?auto=format&fit=crop&w=700&h=500&q=70" alt="Seasoned fries with a dip" width="700" height="500"></button>
+          <button class="g-item reveal" data-full="https://images.unsplash.com/photo-1612392062631-94dd858cba88?auto=format&fit=crop&w=1600&q=80"><img loading="lazy" src="https://images.unsplash.com/photo-1612392062631-94dd858cba88?auto=format&fit=crop&w=700&h=500&q=70" alt="Hot dogs with toppings" width="700" height="500"></button>
+          <button class="g-item g-wide reveal" data-full="https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=1600&q=80"><img loading="lazy" src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=1100&h=600&q=70" alt="Two burgers side by side" width="1100" height="600"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="section location" id="location">
+      <div class="container loc-grid">
+        <div class="loc-info reveal">
+          <p class="kicker">Location</p>
+          <h2>Come <em>see us</em></h2>
+          <address>
+            4616 Granbury Rd<br>
+            Fort Worth, TX 76133<br>
+            United States
+          </address>
+          <div class="loc-actions">
+            <a class="btn btn-red" target="_blank" rel="noopener"
+               href="https://www.google.com/maps/dir/?api=1&amp;destination=Charley%27s+Old+Fashioned+Hamburgers%2C+4616+Granbury+Rd%2C+Fort+Worth%2C+TX+76133">Get Directions</a>
+            <a class="btn btn-outline" href="tel:+18179248611">Call (817) 924-8611</a>
+          </div>
+
+          <div class="hours">
+            <h3>Opening Hours <span class="tbc">TBC</span></h3>
+            <ul>
+              <li><span>Monday</span><span class="ph">Hours to be confirmed</span></li>
+              <li><span>Tuesday</span><span class="ph">Hours to be confirmed</span></li>
+              <li><span>Wednesday</span><span class="ph">Hours to be confirmed</span></li>
+              <li><span>Thursday</span><span class="ph">Hours to be confirmed</span></li>
+              <li><span>Friday</span><span class="ph">Hours to be confirmed</span></li>
+              <li><span>Saturday</span><span class="ph">Hours to be confirmed</span></li>
+              <li><span>Sunday</span><span class="ph">Hours to be confirmed</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="map-wrap reveal">
+          <iframe title="Map showing 4616 Granbury Rd, Fort Worth, TX 76133"
+                  src="https://www.google.com/maps?q=Charley%27s+Old+Fashioned+Hamburgers,+4616+Granbury+Rd,+Fort+Worth,+TX+76133&amp;output=embed"
+                  loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container contact-inner reveal">
+        <p class="kicker">Contact</p>
+        <h2>Questions? <em>Give us a call.</em></h2>
+        <div class="contact-cards">
+          <a class="c-card" href="tel:+18179248611">
+            <span class="c-label">Phone</span>
+            <span class="c-value">(817) 924-8611</span>
+          </a>
+          <a class="c-card" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Charley%27s+Old+Fashioned+Hamburgers+4616+Granbury+Rd+Fort+Worth+TX+76133">
+            <span class="c-label">Address</span>
+            <span class="c-value">4616 Granbury Rd, Fort Worth</span>
+          </a>
+          <div class="c-card c-card-ph">
+            <span class="c-label">Email <span class="tbc">TBC</span></span>
+            <span class="c-value">To be confirmed</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="checker" aria-hidden="true"></div>
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="brand brand-footer">
+          <span class="brand-script">Charley's</span>
+          <span class="brand-sub">Old Fashioned Hamburgers</span>
+        </a>
+        <p class="footer-tag">Good burgers. Great memories.</p>
+      </div>
+      <nav aria-label="Footer">
+        <h4>Explore</h4>
+        <a href="#home">Home</a><a href="#menu">Menu</a><a href="#about">About</a>
+        <a href="#gallery">Gallery</a><a href="#location">Location</a><a href="#contact">Contact</a>
+      </nav>
+      <div>
+        <h4>Visit</h4>
+        <p>4616 Granbury Rd<br>Fort Worth, TX 76133</p>
+        <p><a href="tel:+18179248611">(817) 924-8611</a></p>
+      </div>
+      <div>
+        <h4>Follow <span class="tbc">TBC</span></h4>
+        <div class="socials">
+          <a href="#" class="social-ph" aria-label="Facebook (link to be confirmed)"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8z"/></svg></a>
+          <a href="#" class="social-ph" aria-label="Instagram (link to be confirmed)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="#" class="social-ph" aria-label="TikTok (link to be confirmed)"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M16 3c.3 2.3 1.7 3.9 4 4.1v3.1a7 7 0 0 1-4-1.3v6.4A5.6 5.6 0 1 1 10.4 9.8v3.2a2.5 2.5 0 1 0 2.4 2.5V3z"/></svg></a>
+        </div>
+        <p class="small">Social links to be added once verified.</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Charley's Old Fashioned Hamburgers · Unofficial website demo</p>
+      <p>Food photography: sample images from <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a></p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="lb-close" id="lbClose" aria-label="Close">×</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous photo">‹</button>
+    <img id="lbImg" alt="">
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next photo">›</button>
+  </div>
+
+  <a href="#home" class="to-top" id="toTop" aria-label="Back to top">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
